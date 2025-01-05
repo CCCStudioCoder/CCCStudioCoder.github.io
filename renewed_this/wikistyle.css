@@ -29,3 +29,5 @@ span{font-family: monospace, Courier, sans-serif; background-color: lightgray; b
 .wiki_par a{color: rgb(80, 91, 241); text-decoration: none; font-family: Courier, sans-serif;}
 .wiki_par a:hover{text-decoration: underline; color: blue;}
 .wiki_par a:visited{color: purple;}
+
+body{background-image: repeating-linear-gradient(to bottom right, white, white 7%, orange 10%, orange 16%, white 19%);}

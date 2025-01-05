@@ -2,8 +2,12 @@ nav a{margin: 6%; padding: 4px; font-size: 25px; color: rgb(220, 225, 245);
     border: solid black 3px; border-radius: 4px; text-decoration: none; font-weight: bold;}
 nav{text-align: center; background-image: linear-gradient(blue, darkblue); 
     width: 93%; height: 60px; margin: 0%; left: 7%; top: 0%; position: fixed;
-    border: solid darkblue 10px; border-radius: 8px;}
+    border: solid darkblue 10px; border-radius: 8px; z-index: 5;}
 nav a:hover{padding: 6px;}
 
 h1{text-align: center; color: #040; font-size: 40px; margin-top: 0%; position: relative; top: 70px;}
 #logo{position: fixed; width: 5%; height: 10%;}
+img{width: 80%; height: auto; margin: auto;}
+.par{font-size: 20px; font-weight: 500; font-family: Verdana, sans-serif;}
+p.par{margin-top: 10%;}
+body{background-image: repeating-linear-gradient(to bottom right, white, white 7%, orange 10%, orange 16%, white 19%);}
